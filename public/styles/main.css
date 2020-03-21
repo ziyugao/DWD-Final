@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+}
+
+body {
+    /* animation: coloring 30s infinite; */
+    margin: 0;
+    height: 100%;
+}
+
+@keyframes coloring {
+    0% { background-color: #ee7752; }
+    25% { background-color: #e73c7e; }
+    50% { background-color: #23a6d5; }
+    75% { background-color: #23d5ab; }
+    100% { background-color: #ee7752; }
+}
+
+.fullscreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.list-container {
+    display: flex;
+}
+
+.image-element {
+    display: inline-block;
+    position: relative;
+}
+
+.delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: rgba(76, 175, 80, 0.0);
+    border: none;
+    color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color:rgba(255,255,255, 5.0);
+    overflow: hidden;
+    font-family:'Courier New', Courier, monospace
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #3381bd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #3381bd;
+    color: white;
+  }
